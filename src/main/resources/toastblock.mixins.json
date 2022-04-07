@@ -6,7 +6,11 @@
   "mixins": [
   ],
   "client": [
-    "ToastMixin"
+    "ToastMixin",
+    "AdvancementDisplayMixin",
+    "RecipeToastMixin",
+    "SystemToastMixin",
+    "TutorialManagerMixin"
   ],
   "injectors": {
     "defaultRequire": 1
